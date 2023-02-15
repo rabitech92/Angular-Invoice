@@ -64,5 +64,5 @@ describe('AppComponent', () => {
 
     // Assert
     expect(component.invoices).toEqual(invoices);
-  });
+  });//
 });

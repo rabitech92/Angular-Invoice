@@ -1,4 +1,4 @@
-export interface Invoice {
+export class Invoice {
   name: string;
   email: string;
   address: string;
@@ -10,3 +10,4 @@ export interface Invoice {
   total: number;
   isPaid: boolean;
 }
+
